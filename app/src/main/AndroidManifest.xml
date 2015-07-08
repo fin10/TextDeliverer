@@ -22,7 +22,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
-
         </activity>
 
         <activity
@@ -38,7 +37,22 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
+        </activity>
 
+        <activity
+            android:name=".BrowserDeliverer"
+            android:label="@string/browser_deliverer"
+            android:icon="@mipmap/ic_browser_deliverer"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:excludeFromRecents="true"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="text/plain" />
+            </intent-filter>
         </activity>
 
     </application>

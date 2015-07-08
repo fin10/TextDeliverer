@@ -2,4 +2,5 @@
     <string name="app_name">Text\nDeliverer</string>
     <string name="dial_deliverer">Dial\nDeliverer</string>
     <string name="map_deliverer">Map\nDeliverer</string>
+    <string name="browser_deliverer">Browser\nDeliverer</string>
 </resources>
